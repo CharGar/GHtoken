@@ -12,7 +12,7 @@ myApp.config(function($routeProvider, $locationProvider){
     })
     .when('/repos', {
       templateUrl: 'views/pages/repos.html',
-      controller: 'repoController as x'
+      controller: 'repoController as y'
     })
     .otherwise('/');
 
