@@ -1,4 +1,4 @@
-
+var port = process.env.PORT||3004;
 // requires express
 var express = require('express');
 //requires path
@@ -12,6 +12,6 @@ app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'public/views/index.html'));
 });
 // Tells the sever to listen for action on port 3004
-app.listen(3004, function() {
-  console.log('up 3004');
+app.listen(PORT, function() {
+  console.log('up port');
 });
