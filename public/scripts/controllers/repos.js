@@ -5,8 +5,8 @@ myApp.controller('repoController', function (GithubAPI){
   vm.githubRepo = [];
 
   vm.getRepo = function (){
-    GithubAPI.githubRepo().then(function(data){
-      vm.githubRepo=data;
+    GithubAPI.githubRepos().then(function(data){
+      vm.githubRepos=data;
     });
   };
   vm.getRepo();
