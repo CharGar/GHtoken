@@ -1,0 +1,63 @@
+.repeatdiv{
+  text-align: center;
+}
+.reporepeat{
+  font-size: 15px;
+  color:white;
+}
+p{
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+body{
+  background-image: url('backgroundimage.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+}
+ul {
+  list-style-type: none;
+}
+a{
+  opacity: none !important;
+  padding-left: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: blue;
+  text-decoration: underline;
+  /*padding-top: 10px;*/
+}
+.wrapper{
+  text-align: center;
+  /*margin-top: 10px;*/
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px pink;
+}
+h5{
+  font-size: 35px;
+  font-family: 'Permanent Marker', cursive;
+  color:purple;
+  text-shadow: 1px 1px 1px pink;
+}
+.h5{
+  font-size: 35px;
+  font-family: 'Permanent Marker', cursive;
+  color:purple;
+  text-shadow: 1px 1px 1px pink;
+}
+#repositories{
+  margin-top: 100px;
+}
+.navbar{
+  background-attachment: scroll!important;
+  padding-top: 10px;
+  background-color: silver;
+  opacity: 0.5;
+}
