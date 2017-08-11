@@ -15,5 +15,5 @@ app.get('/*', function(req, res) {
 });
 // Tells the sever to listen for action on port 3004
 app.listen(port, function() {
-  console.log('up port');
+  console.log('up on port 3004');
 });

@@ -9,9 +9,11 @@ p{
   text-align: left;
   font-size: 25px;
   color: white;
+  font-family: 'Dosis';
 }
 body{
-  background-image: url('backgroundimage.jpg');
+  background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Pictures-Cleaning-HD-Download.jpg');
+  /*background-image: url('backgroundimage.jpg');*/
   background-attachment: fixed;
   background-size:cover;
 }
@@ -20,7 +22,7 @@ ul {
 }
 a{
   opacity: none !important;
-  padding-left: 25px;
+  /*padding-left: 25px;*/
   text-align: center;
   text-decoration: none;
   font-size: 30px;
@@ -35,22 +37,21 @@ a{
 
 h1{
   text-align: center;
-  color: white;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 600;
-  text-shadow: 1px 1px 1px pink;
+  color: silver;
+  font-family: 'Dosis';
+  text-shadow: 1px 1px 1px black;
 }
 h5{
   font-size: 35px;
-  font-family: 'Permanent Marker', cursive;
-  color:purple;
-  text-shadow: 1px 1px 1px pink;
+  color: white;
+  font-family: 'Dosis';
+  text-shadow: 1px 1px 1px black;
 }
 .h5{
   font-size: 35px;
-  font-family: 'Permanent Marker', cursive;
-  color:purple;
-  text-shadow: 1px 1px 1px pink;
+  color: white;
+  font-family: 'Dosis';
+  text-shadow: 1px 1px 1px black;
 }
 #repositories{
   margin-top: 100px;
