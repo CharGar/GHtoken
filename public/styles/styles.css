@@ -70,7 +70,10 @@ h5{
     }
 }*/
 a{
-  text-decoration: none!important
+  color: #39FF14;
+}
+a:hover{
+  color:red;
 }
 a:focus{
   outline:0;
