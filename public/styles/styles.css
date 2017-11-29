@@ -1,4 +1,4 @@
-.repeatdiv{
+/*.repeatdiv{
   text-align: center;
 }
 .reporepeat{
@@ -11,37 +11,23 @@ p{
   color: white;
   font-family: 'Dosis';
 }
-body{
-  background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Pictures-Cleaning-HD-Download.jpg');
-  /*background-image: url('backgroundimage.jpg');*/
-  background-attachment: fixed;
-  background-size:cover;
-  overflow-x: hidden;
-}
+
 ul {
   list-style-type: none;
 }
 a{
   opacity: none !important;
-  /*padding-left: 25px;*/
   text-align: center;
   text-decoration: none;
   font-size: 30px;
   color: blue;
   text-decoration: underline;
-  /*padding-top: 10px;*/
 }
 .wrapper{
   text-align: center;
-  /*margin-top: 10px;*/
 }
 
-h1{
-  text-align: center;
-  color: silver;
-  font-family: 'Dosis';
-  text-shadow: 1px 1px 1px black;
-}
+
 h5{
   font-size: 35px;
   color: white;
@@ -63,3 +49,241 @@ h5{
   background-color: silver;
   opacity: 0.5;
 }
+@media only screen and (orientation: landscape) {
+    body {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 30px;
+    }
+    .codepenFrames{
+      left: 0;
+      width: 50%;
+      padding: 10px;
+    }
+    h5{
+      font-size:50px;
+      text-align: center;
+    }
+   .reporepeat{
+      font-size:35px;
+    }
+}*/
+a{
+  text-decoration: none!important
+}
+a:focus{
+  outline:0;
+}
+
+#gotchya:focus{
+  outline:0;
+}
+
+*{
+ box-sizing: border-box;
+}
+
+#welcomePage{
+  width:100%;
+  text-align: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.class{
+  display: inline-block;
+}
+
+.buttons{
+  display: inline-block;
+}
+
+#repositories{
+  text-align: center;
+}
+
+h1 h5{
+  text-align: center;
+}
+
+body{
+  background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Pictures-Cleaning-HD-Download.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+#gitInfo{
+  text-align: center;
+}
+
+h1{
+  color: silver;
+  font-family: 'Dosis';
+  text-shadow: 1px 1px 1px black;
+}
+
+h5{
+  color:white;
+}
+
+p{
+  color: white;
+  font-family: 'Dosis';
+}
+
+/*codepen sample START*/
+
+
+nav ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+nav a {
+  display: block;
+  padding: .5em 1em;
+  text-decoration: none;
+  color: #d0eef3;
+}
+
+
+
+@media screen and (max-width: 48.124em) {
+  #jump {
+    background: #000;
+    border-width: 0 0 1px 1px;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    height: 53px;
+    width: 53px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  body:not(:target) #nav {
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(18, 72, 97, 0.2);
+  }
+
+  body:not(:target) #nav a {
+    background: rgba(255, 255, 255, 0.15);
+    border-bottom-width: 0;
+    font-weight: bold;
+    overflow: hidden;
+    height: 0;
+    line-height: 0;
+    padding: 0 1em;
+  }
+
+  body:not(:target) #nav:target {
+    z-index: 2;
+  }
+
+  body:not(:target) #nav:target a {
+    border-bottom-width: 1px;
+    line-height: 3em;
+    height: 3em;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: height .25s, line-height .25s;
+  }
+
+  body:not(:target) #nav:target #back {
+    display: block;
+    position: relative;
+  }
+
+  body:not(:target) #nav:target #back a {
+    background: transparent;
+    border: 0;
+    display: block;
+    height: auto;
+    line-height: 1;
+    position: absolute;
+    top: -101em;
+    bottom: -101em;
+    left: 0;
+    right: 0;
+    text-indent: -999em;
+    z-index: 0;
+  }
+}
+@media screen and (min-width: 48.125em) {
+  #page,
+  header {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+
+
+  #jump {
+    position: absolute;
+    left: -9999em;
+  }
+
+  #nav {
+    text-align: center;
+  }
+  #nav li {
+    display: inline-block;
+  }
+  #nav a {
+    border-bottom: none;
+  }
+}
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 376px) {
+    p{
+        font-size: 70px;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+  .starter{
+      font-size: 30px!important;
+      text-align:center;
+  }
+}*/

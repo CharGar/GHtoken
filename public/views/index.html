@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content= "width=device-width, initial-scale=1, maximum-scale=1">
   <title>Charlie</title>
   <script src="vendors/angular.min.js" charset="utf-8"></script>
   <script src="vendors/angular-route.min.js" charset="utf-8"></script>
@@ -11,39 +12,57 @@
   <script src="scripts/controllers/repos.js" charset="utf-8"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Scope+One|Permanent+Marker|Dosis" rel="stylesheet">  <base href="/">
+  <link href="https://fonts.googleapis.com/css?family=Scope+One|Permanent+Marker|Dosis" rel="stylesheet">  <base href="/">
+  <a id="jump" href="#nav">Ξ</a>
+
 </head>
 <body ng-app="myApp">
   <div class="wrapper">
-    <nav class="navbar navbar-toggleable-sm navbar-light">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a style='text-decoration:none;'href="/">Home &nbsp &nbsp</a><span class="sr-only"></span></a>
-          </li>
 
-          <li class="nav-item">
-            <a style='text-decoration:none;'class="nav-link" href="/profile">Bio &nbsp &nbsp</a>
-          </li>
 
-          <li class="nav-item">
-            <a style='text-decoration:none;'href="/repos">My Portfolio</a>
-          </li>
-        </ul>
+
+    <!-- <div id="page">
+      <nav role="navigation">
+        <ul id="nav" tabindex="0"> -->
+
+    <div class="col-12" id='gotchya'>
+      <div id="page">
+        <nav role="navigation">
+          <ul id="nav" tabindex="0">
+      <div style='background: black;'class="buttons">
+        <a href="/">Home </a>
       </div>
-    </nav>
 
-    <div><ng-view></ng-view></div>
-  </div>
-  <script>
+        <div style='background: black;'class="buttons">
+          <a href="/profile">Bio</a>
+        </div>
+
+          <div style='background: black;'class="buttons">
+          <a href="/repos">My Portfolio</a>
+      </div>
+    </div>
+
+  <!-- </ul>
+</nav>
+</div> -->
+    <!-- end ID buttons -->
+
+  </ul>
+</nav>
+</div>
+
+      <div><ng-view></ng-view></div>
+    </div>
+    <!-- end class wrapper -->
+    <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-104635412-2', 'auto');
     ga('send', 'pageview');
 
-  </script>
-</body>
-</html>
+    </script>
+  </body>
+  </html>
