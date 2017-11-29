@@ -152,8 +152,10 @@ h5{
 }
 
 p{
+  font-size: 30px;
   color: white;
-  font-family: 'Dosis';
+  font-family: 'Yatra One';
+  text-shadow: 1px 3px 1px black;
 }
 
 /*codepen sample START*/
