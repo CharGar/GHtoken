@@ -1,5 +1,3 @@
 node_modules/
 *.log
 npm-debug.log/
-github.service.js/
-public/scripts/github.service.js/
