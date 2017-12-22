@@ -24,32 +24,50 @@
     <!-- <div id="page">
       <nav role="navigation">
         <ul id="nav" tabindex="0"> -->
+<!-- <nav>
 
-    <div class="col-12" id='gotchya'>
-      <div id="page">
-        <nav role="navigation">
-          <ul id="nav" tabindex="0">
-      <div style='background: black;'class="buttons">
-        <a href="/">Home </a>
-      </div>
+  <input type="checkbox" id="nav">
+    <label for="nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="menu">
+      <li><a href="/">Home </a></li>
+      <li><a href="/profile">Bio</a></li>
+      <li><a href="/repos">My Portfolio</a></li>
+    </ul> -->
 
-        <div style='background: black;'class="buttons">
-          <a href="/profile">Bio</a>
-        </div>
 
-          <div style='background: black;'class="buttons">
-          <a href="/repos">My Portfolio</a>
-      </div>
-    </div>
+    <nav>
+      <h2 class="brand">Charlie Garnaas</h3>
+      <input type="checkbox" id="nav">
+      <label for="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="menu">
+        <li><a href="/repos">Portfolio</a></li>
+        <li><a href="/profile">Bio</a></li>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
 
-  <!-- </ul>
-</nav>
-</div> -->
+
+
+
+
+
+
+
+
+
     <!-- end ID buttons -->
 
-  </ul>
-</nav>
-</div>
+
+<!-- </nav> -->
+
 
       <div><ng-view></ng-view></div>
     </div>
