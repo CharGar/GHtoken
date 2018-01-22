@@ -204,12 +204,12 @@ p{
 a{
   opacity: none !important;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none!important;
   font-size: 20px;
   color: black;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: none!important;
   text-shadow: 1px 1px 10px black;
   color:black;
 }
