@@ -16,7 +16,7 @@ myApp.service('GithubAPI', function($http) {
       console.log(response.data);
       return response.data;
     });
-  }
+  };
 
   //Call to Github API to fetch list of user's repos
   this.githubRepos = function(){
@@ -31,5 +31,5 @@ myApp.service('GithubAPI', function($http) {
       console.log(response.data);
       return response.data;
     });
-  }
+  };
 });

@@ -1,8 +1,13 @@
-<h1 style='font-weight: 100;text-transform: uppercase;text-align: center;'class='reposTitle'>GitHub Portfolio</h1>
+
+<h1 style='color:black; font-weight: 100;text-transform: uppercase;text-align: center;'class='reposTitle'><img style='height:50px; width:50px;'src="http://untv.github.io/assets/images/github-icon-black.svg" alt="">Github Portfolio</h1>
 
 <div id="repositories">
   <div  class='repeatdiv' ng-repeat="repo in y.githubRepos">
-    <h5>{{repo.description}}</h5>
+    <h5 class='repoTitles'>{{repo.name}}</h5>
+    <h7 class='noClass'>Description:{{repo.description}}</h7><br>
+    <h7 class='noClass'>Language: {{repo.language}}</h7><br>
+
+
   <a class='reporepeat' ng-href="{{repo.html_url}}">{{repo.html_url}}</a>
   </div>
 </div>

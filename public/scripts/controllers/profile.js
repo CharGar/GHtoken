@@ -8,6 +8,6 @@ myApp.controller('profileController', function ($http, GithubAPI){
     GithubAPI.githubProfile().then(function(data){
       vm.info = data;
     });
-  }
+  };
   vm.getInfo();
 });
