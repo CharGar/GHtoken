@@ -1,7 +1,6 @@
 body{
   background-image: url('http://www.surfline.com/surfnews/images/2010/07_july/baseman_portfolio/full/06_dannyfullereb_mld9980.jpg');
   background-position: sticky;
-  background-size: 
 }
 
 
@@ -306,9 +305,17 @@ a:hover{
 }
 
 .resume{
-  margin:0 20%;
+  margin:0 10%;
 }
 
 b{
   color: yellow;
+}
+
+#myBio{
+  margin: 0 10%;
+  color: rgb(17, 6, 6);
+  font-family: 'Dosis';
+  text-shadow: 1px 1px 1px black;
+  font-size:2em;
 }
