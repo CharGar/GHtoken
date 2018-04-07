@@ -31,6 +31,7 @@ h1 {
 }
 
 nav {
+  z-index: 200;
   position: fixed;
   top: 0;
   padding: 20px;
@@ -249,17 +250,18 @@ a:hover{
   text-shadow: 1px 1px 10px black;
   color:black;
 }
+
 .bIo{
   display: inline-block;
-  /* display:inline-block; */
-  border-left: double;
-  border-right: double;
 }
+
 #gitInfo{
+  color:white;
+  /* -webkit-text-stroke: .5px teal; */
+  text-shadow: black 2px 2px 2px;
   margin:0 auto;
-  width:80%;
+  /* width:90%; */
   text-align: center;
-  background: honeydew;
   border-color: 20px solid darkviolet!important;
 }
  #bio{
@@ -285,7 +287,7 @@ a:hover{
 }
 
 #techExp{
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   animation:floatup 2s ease-in-out
 }
@@ -296,6 +298,7 @@ a:hover{
 
 .myExp{
   text-align: center;
+  font-size: 17px;
 }
 
 .githubLink{
@@ -304,4 +307,8 @@ a:hover{
 
 .resume{
   margin:0 20%;
+}
+
+b{
+  color: yellow;
 }
