@@ -309,7 +309,7 @@ a:hover{
 }
 
 b{
-  color: yellow;
+  color: rgb(123, 255, 0);
 }
 
 #myBio{
@@ -319,3 +319,5 @@ b{
   text-shadow: 1px 1px 1px black;
   font-size:2em;
 }
+
+
