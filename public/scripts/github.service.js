@@ -19,7 +19,7 @@ myApp.service('GithubAPI', function($http) {
     });
   };
 
-  //Call to Github API to fetch list of user's repos
+  //Call to Github API to fetch list of my repos
   this.githubRepos = function(){
 
     return $http({
