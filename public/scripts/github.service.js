@@ -1,6 +1,6 @@
 myApp.service('GithubAPI', function($http) {
   //Enter your token and username here:
-  var oauthToken = '580a25cb6dc3e93a787bf12abd5eb94c4e2c3c0a';
+  var oauthToken = '0c856e166caddbb61cbad184651508594b51dec3';
   var username = 'chargar';
   
 
