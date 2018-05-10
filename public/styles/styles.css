@@ -35,7 +35,7 @@ nav {
   top: 0;
   padding: 20px;
   width: 100%;
-  background: #5ABCB9;
+  background:aqua;
 }
 
 nav h2 {
@@ -86,7 +86,7 @@ p {
   padding-right: 10px;
   font-size: 80px;
   line-height: 0.9;
-  color: #63E2C6;
+  color: aqua;
 }
 
 input[type=checkbox] {
@@ -102,7 +102,7 @@ nav label {
   right: 0;
   height: 70px;
   width: 70px;
-  background: #63E2C6;
+  background:aqua;
   cursor: pointer;
   z-index: 2;
 }
@@ -153,7 +153,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     left: 0;
     height: 50vh;
     width: 100%;
-    background: #63E2C6;
+    background:aqua;
   }
 
   .menu li {
@@ -198,7 +198,7 @@ p{
   font-size: 30px;
   color: rgb(2, 0, 0);
   /* font-family: 'Yatra One'; */
-  text-shadow: 1px 1px 1px rgb(53, 143, 146);
+  text-shadow: 1px 1px 1px aqua;
 }
 
 
@@ -321,3 +321,23 @@ b{
 }
 
 
+.ghubDump{
+  text-decoration: none;
+  background-color: aqua;
+  width:143px;
+  height: 40px;
+  margin:0 auto;
+  display:block;
+  border-radius:5px 5px 5px 5px;
+  font-size: 22px;
+  border-color: black;
+  font-family: 'Dosis';
+}
+
+.ghubDump:focus {
+  outline:0;
+}
+
+.linkedin{
+  height:51px;
+}
